@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
     type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
@@ -47,13 +48,16 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#certifications">Certifications</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#publications">Publications</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#prizes">Prizes</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://medium.com/@hasnimedbilel"
@@ -127,7 +131,159 @@
     </div>
   </section>
 
+  <!-- Projects Section -->
+  <section class="bg-light" id="projects">
+    <div class="container">
+      <h2 class="text-center text-uppercase mb-0">Data Engineering Projects</h2>
+      <hr class="star-dark mb-5">
 
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-6 mb-4">
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-database project-icon"></i>
+              <h3>Real-Time Data Pipeline Architecture</h3>
+            </div>
+            <p class="project-description">
+              Designed and implemented a scalable real-time data pipeline processing millions of events daily using Azure Data Factory, Databricks, and Delta Lake. Implemented medallion architecture (Bronze-Silver-Gold layers) for optimized data processing.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-badge"><i class="devicon-azure-plain"></i> Azure</span>
+              <span class="tech-badge"><i class="fas fa-layer-group"></i> Databricks</span>
+              <span class="tech-badge"><i class="devicon-apachespark-plain"></i> Spark</span>
+              <span class="tech-badge"><i class="devicon-python-plain"></i> Python</span>
+              <span class="tech-badge"><i class="fas fa-database"></i> Delta Lake</span>
+            </div>
+            <div class="project-metrics">
+              <div class="metric">
+                <strong>5M+</strong>
+                <span>Events/Day</span>
+              </div>
+              <div class="metric">
+                <strong>40%</strong>
+                <span>Cost Reduction</span>
+              </div>
+              <div class="metric">
+                <strong>99.9%</strong>
+                <span>Uptime</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-lg-6 mb-4">
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-chart-line project-icon"></i>
+              <h3>Healthcare Analytics Platform</h3>
+            </div>
+            <p class="project-description">
+              Built end-to-end analytics platform for healthcare data, implementing ETL pipelines, data quality frameworks, and automated reporting systems. Enabled data-driven decision making for clinical research teams.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-badge"><i class="devicon-python-plain"></i> Python</span>
+              <span class="tech-badge"><i class="devicon-pandas-plain"></i> Pandas</span>
+              <span class="tech-badge"><i class="devicon-postgresql-plain"></i> SQL</span>
+              <span class="tech-badge"><i class="fas fa-project-diagram"></i> Airflow</span>
+              <span class="tech-badge"><i class="fas fa-chart-bar"></i> Power BI</span>
+            </div>
+            <div class="project-metrics">
+              <div class="metric">
+                <strong>50+</strong>
+                <span>Data Sources</span>
+              </div>
+              <div class="metric">
+                <strong>TB-scale</strong>
+                <span>Data Volume</span>
+              </div>
+              <div class="metric">
+                <strong>30+</strong>
+                <span>Dashboards</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-lg-6 mb-4">
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-robot project-icon"></i>
+              <h3>MLOps Pipeline for Fraud Detection</h3>
+            </div>
+            <p class="project-description">
+              Developed ML pipeline for SIMBOX fraud detection in telecommunications. Implemented automated model training, validation, deployment, and monitoring using MLflow and Azure ML.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-badge"><i class="devicon-python-plain"></i> Python</span>
+              <span class="tech-badge"><i class="fas fa-brain"></i> Scikit-learn</span>
+              <span class="tech-badge"><i class="fab fa-docker"></i> Docker</span>
+              <span class="tech-badge"><i class="devicon-azure-plain"></i> Azure ML</span>
+              <span class="tech-badge"><i class="fas fa-chart-line"></i> MLflow</span>
+            </div>
+            <div class="project-metrics">
+              <div class="metric">
+                <strong>95%</strong>
+                <span>Accuracy</span>
+              </div>
+              <div class="metric">
+                <strong>Real-time</strong>
+                <span>Predictions</span>
+              </div>
+              <div class="metric">
+                <strong>$2M+</strong>
+                <span>Fraud Prevented</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-lg-6 mb-4">
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-cloud project-icon"></i>
+              <h3>Cloud Data Warehouse Migration</h3>
+            </div>
+            <p class="project-description">
+              Led migration of on-premise data warehouse to Azure Synapse Analytics. Designed modern data architecture, optimized query performance, and implemented data governance frameworks.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-badge"><i class="devicon-azure-plain"></i> Synapse</span>
+              <span class="tech-badge"><i class="fas fa-database"></i> SQL Pool</span>
+              <span class="tech-badge"><i class="devicon-git-plain"></i> Git</span>
+              <span class="tech-badge"><i class="fas fa-code-branch"></i> CI/CD</span>
+              <span class="tech-badge"><i class="fas fa-shield-alt"></i> Security</span>
+            </div>
+            <div class="project-metrics">
+              <div class="metric">
+                <strong>10TB+</strong>
+                <span>Data Migrated</span>
+              </div>
+              <div class="metric">
+                <strong>60%</strong>
+                <span>Faster Queries</span>
+              </div>
+              <div class="metric">
+                <strong>Zero</strong>
+                <span>Downtime</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <p class="lead">
+          <i class="fab fa-github mr-2"></i>
+          Explore more projects on my
+          <a href="https://github.com/hasnimedbilel" target="_blank" class="project-link">GitHub</a>
+        </p>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -224,95 +380,270 @@
 
   <!-- Skills Section -->
   <section class="bg-primary text-white mb-0" id="skills">
-    <div class="container col-xl-5 col-lg-6 col-md-8 col-sm-10 col-xs-12">
+    <div class="container">
       <h2 class="text-center text-uppercase text-white">Technical Skills</h2>
       <hr class="star-light mb-5">
-      
+
       <div class="row">
-        <div class="col-lg-12">
-          <h4>Big Data & Cloud Technologies</h4>
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-primary">Databricks</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-primary">Azure Synapse Analytics</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-primary">Azure Data Lake</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-primary">Azure Data Factory</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-primary">Apache Spark Framework</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-primary">PySpark</span>
-            </li>
-          </ul>
+        <!-- Cloud & Big Data -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="skill-category">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-cloud fa-3x mb-3"></i>
+            </div>
+            <h4 class="mb-3">Cloud & Big Data</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="devicon-azure-plain colored"></i>
+                <span>Azure (ADF, Synapse, Data Lake)</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-apachespark-plain colored"></i>
+                <span>Apache Spark & PySpark</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-layer-group"></i>
+                <span>Databricks & Delta Lake</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-docker"></i>
+                <span>Docker & Kubernetes</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <h4 class="mt-4">Python Data Stack</h4>
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-info">Pandas</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-info">NumPy</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-info">Scikit-learn</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-info">TensorFlow</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-info">PyTorch</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-info">Matplotlib</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-info">Seaborn</span>
-            </li>
-          </ul>
+        <!-- Programming & Tools -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="skill-category">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-code fa-3x mb-3"></i>
+            </div>
+            <h4 class="mb-3">Programming & Tools</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="devicon-python-plain colored"></i>
+                <span>Python (Expert)</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>SQL (Advanced)</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-git-plain"></i>
+                <span>Git & CI/CD</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-linux-plain"></i>
+                <span>Linux & Shell Scripting</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <h4 class="mt-4">Data Engineering</h4>
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-success">ETL Pipeline Development</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-success">Data Warehousing</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-success">SQL</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-success">Delta Lake</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-success">Data Modeling</span>
-            </li>
-          </ul>
-          <h4 class="mt-4">Programming Languages</h4>
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-warning">Python</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-warning">SQL</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-warning">Java</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-warning">C</span>
-            </li>
-            <li class="list-inline-item">
-              <span class="badge badge-pill badge-warning">R</span>
-            </li>
-          </ul>
+        <!-- Data Engineering -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="skill-category">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-project-diagram fa-3x mb-3"></i>
+            </div>
+            <h4 class="mb-3">Data Engineering</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fas fa-exchange-alt"></i>
+                <span>ETL/ELT Pipelines</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-warehouse"></i>
+                <span>Data Warehousing</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chart-line"></i>
+                <span>Data Modeling & Architecture</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Data Quality & Governance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python Data Stack -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="skill-category">
+            <div class="skill-icon-wrapper">
+              <i class="devicon-python-plain fa-3x mb-3"></i>
+            </div>
+            <h4 class="mb-3">Python Data Stack</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="devicon-pandas-plain colored"></i>
+                <span>Pandas & NumPy</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-brain"></i>
+                <span>Scikit-learn</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-tensorflow-plain colored"></i>
+                <span>TensorFlow & PyTorch</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chart-bar"></i>
+                <span>Matplotlib & Seaborn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MLOps & Orchestration -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="skill-category">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-robot fa-3x mb-3"></i>
+            </div>
+            <h4 class="mb-3">MLOps & Orchestration</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fas fa-stream"></i>
+                <span>Apache Airflow</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chart-line"></i>
+                <span>MLflow & Model Registry</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-azure-plain"></i>
+                <span>Azure ML</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-infinity"></i>
+                <span>CI/CD for Data Pipelines</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases & Storage -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="skill-category">
+            <div class="skill-icon-wrapper">
+              <i class="fas fa-database fa-3x mb-3"></i>
+            </div>
+            <h4 class="mb-3">Databases & Storage</h4>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="devicon-postgresql-plain colored"></i>
+                <span>PostgreSQL & SQL Server</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-mongodb-plain colored"></i>
+                <span>MongoDB & NoSQL</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-hdd"></i>
+                <span>Azure Data Lake</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-table"></i>
+                <span>Parquet, Delta, Avro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="mb-0" id="experience">
+    <div class="container col-xl-8 col-lg-10 col-md-11">
+      <h2 class="text-center text-uppercase">Professional Experience</h2>
+      <hr class="star-dark mb-5">
+
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Senior Data & AI Engineer</h3>
+              <div class="company-info">
+                <span class="company-name">SFEIR Luxembourg</span>
+                <span class="timeline-date">2022 - Present</span>
+              </div>
+            </div>
+            <ul class="experience-details">
+              <li>Design and implement scalable data pipelines processing millions of events daily using Azure Data Factory, Databricks, and Spark</li>
+              <li>Architect modern data platforms leveraging medallion architecture (Bronze-Silver-Gold) with Delta Lake</li>
+              <li>Lead cloud data warehouse migrations to Azure Synapse Analytics, achieving 60% query performance improvements</li>
+              <li>Implement MLOps pipelines for model deployment, monitoring, and governance</li>
+              <li>Mentor junior engineers and establish data engineering best practices across projects</li>
+            </ul>
+            <div class="tech-highlights">
+              <span class="tech-tag">Azure</span>
+              <span class="tech-tag">Databricks</span>
+              <span class="tech-tag">Spark</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">MLOps</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Data Engineer / Data Scientist</h3>
+              <div class="company-info">
+                <span class="company-name">Putnam PHMR (formerly Creativ-Ceutical)</span>
+                <span class="timeline-date">2019 - 2022</span>
+              </div>
+            </div>
+            <ul class="experience-details">
+              <li>Built end-to-end analytics platform for healthcare data, integrating 50+ data sources</li>
+              <li>Developed ETL pipelines for processing TB-scale clinical and real-world evidence data</li>
+              <li>Implemented data quality frameworks ensuring >99% data accuracy</li>
+              <li>Created automated reporting systems and 30+ interactive dashboards for clinical research teams</li>
+              <li>Collaborated with data scientists on ML models for treatment pattern analysis</li>
+            </ul>
+            <div class="tech-highlights">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Airflow</span>
+              <span class="tech-tag">Power BI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Data Engineering Intern</h3>
+              <div class="company-info">
+                <span class="company-name">Various (Fintech, Telecom, Healthcare)</span>
+                <span class="timeline-date">2017 - 2019</span>
+              </div>
+            </div>
+            <ul class="experience-details">
+              <li>Completed multiple data engineering internships across Fintech, Telecommunications, and Healthcare sectors</li>
+              <li>Developed SIMBOX fraud detection ML pipeline for telecom operator, preventing $2M+ in fraud</li>
+              <li>Built data pipelines for financial transaction processing and anomaly detection</li>
+              <li>Gained hands-on experience with diverse data technologies and industry-specific challenges</li>
+            </ul>
+            <div class="tech-highlights">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">Data Pipelines</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
